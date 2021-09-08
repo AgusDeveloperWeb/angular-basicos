@@ -10,8 +10,9 @@ export class ListadoComponent {
   heroeBorrado: string = '';
 
   borrarHeroe() {
-    const heroeBorrado = this.heroes.shift() || '';
-    this.heroeBorrado = heroeBorrado;
+    this.heroeBorrado = this.heroes.shift() || '';
   }
 
+
 }
+

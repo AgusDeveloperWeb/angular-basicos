@@ -1,4 +1,5 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
+
 import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
@@ -9,5 +10,4 @@ import { ContadorComponent } from './contador/contador.component';
         ContadorComponent
     ]
 })
-
 export class ContadorModule {}
